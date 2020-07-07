@@ -144,7 +144,27 @@ meta data // <title> // <style> //
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    inline does not require a new line to begin in the page
+    block elements normally cause a line-break to occur 
+
     2. What happens when an element is positioned absolutely? 
+    an element positioned absolutely will reference the parent/ancestor and base the positioning properties on that. 
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    by using a percent rather than px to determine size/positioning 
+
+    4. Name 3 elements that are diplay block by default, 
+    <li>
+    <form>
+    <nav>
+
+    2 elements that are display inline by default and 
+    <br>
+    <span>
+    <i>
+    
+    1 element that is display inline-block by default
+    <button>
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+    by using percents within the style attributes relating to size and position. This way the content will adapt to any screen size. 
